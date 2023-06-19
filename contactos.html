@@ -35,19 +35,24 @@
 
 				<!-- Main -->
 					<div id="main">
-						<section class="post">
-							<!--<h3>Os nossos Contactos</h3>-->
-							<span class="image fit"><img src="images/contactos.jpg" alt="" /></span>
-							<article>
-								<h3>Título</h3>
-								<p>Lorem ipsum dolor vestibulum an</p>
-							</article>
-							<hr />
-							<article>
-								<h3>Título</h3>
-								<p>Lorem ipsum dolor vestibulum an</p>
-							</article>
-						</section>
+						<form action="https://formspree.io/f/mbjenqew"
+							  method="POST">
+							<label>
+								Nome<input name="nome">
+							</label>
+							<label>
+								Telefone<input type="tel" name="nome">
+							</label>
+							<label>
+								Email<input type="email" name="email">
+							</label>
+							<label>
+								A sua mensagem:
+								<textarea name="message"></textarea>
+							</label>
+							<!-- your other form fields go here -->
+							<button type="submit">Enviar</button>
+						</form>
 
 
 
