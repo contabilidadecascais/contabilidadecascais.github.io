@@ -32,7 +32,7 @@
 			</nav>
 			<!-- Main -->
 			<div id="main">
-				<section class="post">
+				<!--<section class="post">
 					<h2>Fale connosco</h2>
 					Envie-nos uma mensagem com as suas questões.<br />
 					Responderemos de seguida<br />
@@ -55,7 +55,98 @@
 						</label>
 						<button type="submit">Enviar</button>
 					</form>
-				</section>
+				</section>-->
+				<form action="https://formspree.io/f/mbjenqew" method="post">
+					<div class="row gtr-uniform">
+						<div class="col-12">
+							<input type="text" name="Nome" placeholder="Nome" required />
+						</div>
+						<div class="col-12">
+							<input type="email" name="email" placeholder="E-mail" required />
+						</div>
+						<div class="col-12">
+							<input type="text" name="Telefone" placeholder="Telefone (não obrigatório)" />
+						</div>
+						<!-- Break -->
+						<div class="col-12">
+							<select name="demo-category">
+								<option value="">- Categoria -</option>
+								<option value="Entre em contacto comigo por email">Entre em contacto comigo por email</option>
+								<option value="Entre em contacto comigo por telefone">Entre em contacto comigo por telefone</option>
+								<option value="Solicito reunião sem compromisso">Solicito reunião sem compromisso</option>
+								<option value="Encontro-me disponível para um lugar na equipa de trabalho">Encontro-me disponível para um lugar na equipa de trabalho</option>
+								<option value="Outras questões">Questões diversas</option>
+							</select>
+						</div>
+						<!-- Break -->
+						<!--<div class="col-12">
+		<input type="radio" id="demo-priority-low" name="demo-priority" checked>
+		<label for="demo-priority-low">
+			Autorizo que os meus dados pessoais possam ser guardados pela
+			CONTABILIDADE CASCAIS para receber informações importantes para o meu negócio,
+			Newsletters e outras informações úteis.
+			O nosso compromisso: não partilhar os seus dados com terceiros,
+			Segurança e responsabilidade (Direito de acesso, retificação,
+			esquecimento e oposição ao tratamento dos seus dados).
+		</label>
+	</div>-->
+						<!--<div class="col-4 col-12-small">
+		<input type="radio" id="demo-priority-normal" name="demo-priority">
+		<label for="demo-priority-normal">Normal</label>
+	</div>-->
+						<!--<div class="col-4 col-12-small">
+		<input type="radio" id="demo-priority-high" name="demo-priority">
+		<label for="demo-priority-high">High</label>
+	</div>-->
+						<!--<div class="col-6 col-12-small">
+		<input type="checkbox" id="demo-copy" name="demo-copy">
+		<label for="demo-copy">Email me a copy</label>
+	</div>-->
+
+
+						<!--<div class="col-12">
+							<input type="checkbox" name="RDPD=ON=ACEITE" checked>
+							<label for="RDPD=ON=ACEITE" style="font-size:15px;">
+								Autorizo que os meus dados pessoais possam ser guardados pela
+								CONTABILIDADE CASCAIS para receber informações importantes para o meu negócio,
+								Newsletters e outras informações úteis.
+								O nosso compromisso: não partilhar os seus dados com terceiros,
+								Segurança e responsabilidade (Direito de acesso, retificação,
+								esquecimento e oposição ao tratamento dos seus dados).
+							</label>
+						</div>-->
+
+						<!-- Break -->
+						<!--<div class="col-6 col-12-small">
+							<input type="checkbox" id="demo-copy" name="demo-copy">
+							<label for="demo-copy">Email me a copy</label>
+						</div>-->
+						<div class="col-12">
+							<input type="checkbox" id="demo-human" name="RGPD=ON=ACEITE" checked>
+							<label style="font-size:15px;" for="demo-human">
+								Autorizo que os meus dados pessoais possam ser guardados pela
+								CONTABILIDADE CASCAIS para receber informações importantes para o meu negócio,
+								Newsletters e outras informações úteis.
+								O nosso compromisso: não partilhar os seus dados com terceiros,
+								Segurança e responsabilidade (Direito de acesso, retificação,
+								esquecimento e oposição ao tratamento dos seus dados).
+							</label>
+						</div>
+
+						<!-- Break -->
+						<div class="col-12">
+							<textarea name="Mensagem" placeholder="Mensagem" rows="6"></textarea>
+						</div>
+						<!-- Break -->
+						<div class="col-12">
+							<ul class="actions">
+								<li><input type="submit" value="Enviar mensagem" class="primary" /></li>
+								<li><input type="reset" value="Limpar" /></li>
+							</ul>
+						</div>
+					</div>
+				</form>
+				
 				<style>
 					/*form {
 								max-width: 400px;
